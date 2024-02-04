@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+}
+
+.app{
+  background-color: beige;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+min-height: 400px;
+  width: 70%;
+  flex-direction: column;
+  color:rgb(58, 58, 158)
+}
+.taskForm{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+input{
+  border-radius: 5px;
+  margin: 1rem;
+  border: 2px solid rgb(58, 58, 158)
+}
+
+.taskForm button{
+  border-radius: 5px;
+  color:white;
+  background-color: rgb(58, 58, 158);
+  cursor: pointer;
+}
+.singleTask{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 500px;
+  margin: 1rem;
+  
+}
+.task{
+  border: 2px solid;
+  width: 70%;
+  height: 2rem;
+  padding: 2px;
+}
+.editBtn{
+  border-radius: 5px;
+  color:white;
+  background-color: rgb(6, 158, 41);
+  cursor: pointer;
+  border: none;
+  padding: .5rem;
+}
+.deleteBtn{
+  border-radius: 5px;
+  color:white;
+  background-color: rgb(206, 64, 7);
+  cursor: pointer;
+  border: none;
+  padding: .5rem;
+}
